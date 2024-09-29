@@ -360,7 +360,8 @@ scanner() {
     else
         printf "\e[1;93m Not Found!\e[0m\n"
     fi
-}
+    }
 
+## Execute the banner and scanner
 banner
 scanner
